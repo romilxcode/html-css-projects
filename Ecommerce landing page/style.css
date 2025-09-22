@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+/* Top small bar */
+.top-bar {
+  background: #f8f8f8;
+  font-size: 12px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+.logo span {
+  color: #28a745;
+}
+
+/* Search */
+.search-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.location-btn {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Departments button */
+.departments-btn {
+  background: #28a745;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Right icons */
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  background: #28a745;
+  border-radius: 50%;
+  display: inline-block;
+}
