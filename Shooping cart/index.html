@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshCart - Shop Cart</title>
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- WOW.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <!-- Font Awesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Your Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">FC</div>
+      FreshCart
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Search for products">
+      <i class="fa fa-search"></i>
+    </div>
+    <div class="header-actions">
+      <i class="fa fa-map-marker-alt"></i>
+      <i class="fa fa-user"></i>
+      <i class="fa fa-shopping-cart"></i>
+    </div>
+  </header>
+
+  <!-- Main container -->
+  <main class="container">
+    <!-- Animated Title -->
+    <h1 class="wow animate__animated animate__pulse">Shop Cart</h1>
+
+    <div class="alert wow animate__animated animate__fadeInDown">You’ve got FREE delivery. Start checkout now!</div>
+
+    <div class="cart">
+      <!-- Left side items -->
+      <div class="cart-items">
+        <!-- Item 1 -->
+        <div class="item wow animate__animated animate__fadeInLeft">
+          <img src="images/haldiram-bhujia.webp" alt="Haldiram's Sev Bhujia">
+          <div class="info">
+            <h4>Haldiram's Sev Bhujia</h4>
+            <a href="#">Remove</a>
+          </div>
+          <div class="qty-price">
+            <div class="qty">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+            <span>$21.60</span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+          <img src="images/Nutrichoice.webp" alt="NutriChoice Digestive">
+          <div class="info">
+            <h4>NutriChoice Digestive</h4>
+            <a href="#">Remove</a>
+          </div>
+          <div class="qty-price">
+            <div class="qty">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+            <span>$24.00</span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+          <img src="images/5Star-600x566.webp" alt="Cadbury 5 Star Chocolate">
+          <div class="info">
+            <h4>Cadbury 5 Star Chocolate</h4>
+            <a href="#">Remove</a>
+          </div>
+          <div class="qty-price">
+            <div class="qty">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+            <span>$33.25</span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item wow animate__animated animate__fadeInLeft" data-wow-delay="0.3s">
+          <img src="images/lays chips.webp" alt="Onion Flavour Potato">
+          <div class="info">
+            <h4>Onion Flavour Potato</h4>
+            <a href="#">Remove</a>
+          </div>
+          <div class="qty-price">
+            <div class="qty">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+            <span>$3.00</span>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="item wow animate__animated animate__fadeInLeft" data-wow-delay="0.4s">
+          <img src="images/popcorn.webp" alt="Salted Instant Popcorn">
+          <div class="info">
+            <h4>Salted Instant Popcorn</h4>
+            <a href="#">Remove</a>
+          </div>
+          <div class="qty-price">
+            <div class="qty">
+              <button>-</button>
+              <input type="number" value="1" min="1">
+              <button>+</button>
+            </div>
+            <span>$11.70</span>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="actions wow animate__animated animate__fadeInUp">
+          <a href="#" class="btn btn-outline">Continue Shopping</a>
+          <a href="#" class="btn btn-dark">Proceed to checkout</a>
+        </div>
+      </div>
+
+      <!-- Right side summary -->
+      <div class="summary wow animate__animated animate__fadeInRight">
+        <h3>Summary</h3>
+        <div class="row"><span>Item Subtotal</span><span>$93.55</span></div>
+        <div class="row"><span>Shipping Fee</span><span>$0.00</span></div>
+        <div class="row"><span>Tax VAT 18%</span><span>$16.84</span></div>
+        <hr>
+        <div class="row total"><span>Total</span><span>$110.39</span></div>
+        <a href="#" class="btn btn-green">Go to Checkout - $110.39</a>
+
+        <div class="promo">
+          <label>Add Promo or Gift Card</label>
+          <input type="text" placeholder="Promo code">
+          <button>Redeem</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer wow animate__animated animate__fadeInUp">
+    © 2022 - 2025 FreshCart eCommerce HTML Template. Powered by <span>Codescandy</span>
+  </footer>
+
+  <!-- Initialize WOW.js -->
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
